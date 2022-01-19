@@ -1,0 +1,40 @@
+.ThingsBox {
+  display: grid;
+  grid-template-columns: 1fr 8fr 1fr;
+  align-items: center;
+
+  border-radius: 0.5rem;
+  height: 2rem;
+  line-height: 2rem;
+  margin: 1rem auto;
+  background-color: #a498c5;
+  overflow: hidden;
+}
+
+.onMouseThingsBox {
+  background-color: rgb(255, 255, 255);
+  color: #000;
+}
+.onMouseMy_span {
+  color: rgb(250, 0, 0) !important;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.my_input {
+  justify-self: center;
+  cursor: pointer;
+}
+
+.my_lable {
+  padding-left: 2rem;
+}
+
+.my_span {
+  text-align: center;
+  color: #a498c5;
+  font-weight: bold;
+  cursor: pointer;
+}

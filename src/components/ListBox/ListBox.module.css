@@ -1,0 +1,13 @@
+.ListBox {
+  border-radius: 0.5rem;
+  width: 45vw;
+  padding: 1rem;
+  margin: 3rem auto;
+  color: #fff;
+  background-color: rgb(85, 78, 102);
+}
+
+.my_h4 {
+  text-align: center;
+  margin: 0;
+}

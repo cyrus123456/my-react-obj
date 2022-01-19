@@ -1,0 +1,26 @@
+.BottonShowBox {
+  position: fixed;
+  top: 87vh;
+  z-index: 10;
+
+  display: grid;
+  grid-template-columns: 2fr 5fr 3fr;
+  align-items: center;
+
+  text-align: center;
+  border-radius: 0.5rem;
+  width: 50vw;
+  height: 2.5rem;
+  /* margin: 1rem auto; */
+  line-height: 2.5rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(85, 78, 102);
+}
+
+.mask {
+  position: fixed;
+  bottom: 0;
+  height: 10vh;
+  width: 50vw;
+  backdrop-filter: blur(10px);
+}

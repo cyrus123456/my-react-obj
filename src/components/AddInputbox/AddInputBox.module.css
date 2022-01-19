@@ -1,0 +1,21 @@
+.input {
+  position: fixed;
+  top: 10vh;
+
+  width: 50vw;
+  height: 2rem;
+  line-height: 2rem;
+  padding: 0 2rem;
+  outline: none;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 1rem;
+  font-size: 1rem;
+}
+
+.mask {
+  position: fixed;
+  top: 0;
+  height: 15vh;
+  width: 50vw;
+  backdrop-filter: blur(10px);
+}
