@@ -9,6 +9,7 @@ export function addThing(data) {
     data
   })
 }
+
 export function findAll() {
   return request({
     url: '/findAll',
